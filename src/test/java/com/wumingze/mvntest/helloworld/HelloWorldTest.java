@@ -8,6 +8,6 @@ public class HelloWorldTest{
 	public void testSayHello(){
 		HelloWorld helloworld = new HelloWorld();
 		String result = helloworld.sayHello();
-		assertEquals("Hello Maven!", result);
+		assertEquals("Hello Maven", result);
 	}
 }
