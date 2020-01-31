@@ -2,6 +2,7 @@ package com.wumingze.mvntest.helloworld;
 
 public class HelloWorld{
 	public String sayHello(){
+		System.out.println("SUCCESS!");
 		return "Hello Maven";
 	}
 
